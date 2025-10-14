@@ -9,7 +9,7 @@ namespace Tyuiu.MertsKV.Sprint2.Task3.V7.Lib
         {
             double y = 0;
 
-            if (x > 0)
+            if (x > 1)
             {
                 y = Math.Round(x * Math.Pow((Math.Pow(x, 2) + 1) / (x - 1), x), 3);
             }
@@ -21,9 +21,9 @@ namespace Tyuiu.MertsKV.Sprint2.Task3.V7.Lib
                 }
                 else
                 {
-                    if (-11 < x && x < 0)
+                    if (-11 < x && x < 2)
                     {
-                        y = Math.Round(Math.Pow(7 + (1) / (Math.Pow(x, 2)), x), 3);
+                        y = Math.Round(Math.Pow(7 + (1) / (Math.Pow(x, 2)), 2), 3);
                     }
                     else
                     {
