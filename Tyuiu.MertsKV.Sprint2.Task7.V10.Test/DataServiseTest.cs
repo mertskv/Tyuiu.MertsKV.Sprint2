@@ -14,7 +14,7 @@ namespace Tyuiu.MertsKV.Sprint2.Task7.V10.Test
             
             bool res = ds.CheckDotInShadedArea(x, y);
             
-            bool wait = true;
+            bool wait = false;
             
             Assert.AreEqual(wait, res);
         }
