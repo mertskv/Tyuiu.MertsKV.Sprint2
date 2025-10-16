@@ -9,8 +9,8 @@ namespace Tyuiu.MertsKV.Sprint2.Task7.V10.Test
         public void ValidCheckDotInShadedArea()
         {
             DataServise ds = new DataServise();
-            double x = 1;
-            double y = 0;
+            double x = 0;
+            double y = -0.5;
             
             bool res = ds.CheckDotInShadedArea(x, y);
             
