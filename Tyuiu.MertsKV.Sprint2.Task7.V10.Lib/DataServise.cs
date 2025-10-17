@@ -7,7 +7,7 @@ namespace Tyuiu.MertsKV.Sprint2.Task7.V10.Lib
         public bool CheckDotInShadedArea(double x, double y)
         {
             bool res;
-            if ((y >= x * x - 2) && (y >= 0 && y <= x) && (y <= 0 && y >= -x))
+            if (((x * x) - y - 2 <=0) && ((x - y >= 0) || (x + y <= 0)))
             {
                 res = true;
             }
